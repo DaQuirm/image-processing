@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="processing.js"></script>
+	</head>
+	<body>
+		<canvas id="image-canvas" width="800" height="600"></canvas>
+		<div class="controls">
+			<button class="hist-button">Histogram</button>
+			<span>g<sub>min</sub><span>
+			<input type="number" value="64" step="1" class="g-min-input" style="width:50px"></input>
+			<span>g<sub>max</sub></span>
+			<input type="number" value="192" step="1" class="g-max-input" style="width:50px"></input>
+			<button class="lcontrast-button">Linear contrasting</button>
+			<button class="lpf1-button">LPF #1</button>
+			<button class="lpf2-button">LPF #2</button>
+			<button class="lpf3-button">LPF #3</button>
+		</div>
+		<canvas id="histogram-canvas" width="1020" height="500"></canvas>
+	</body>
+</html>
